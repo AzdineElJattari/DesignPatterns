@@ -1,2 +1,4 @@
-package Factory.Interfaces;public class ReggianoCheese {
+package Factory.Interfaces;
+
+public class ReggianoCheese implements Cheese {
 }

@@ -1,2 +1,4 @@
-package Factory;public interface Dough {
+package Factory.Interfaces;
+
+public interface Dough {
 }

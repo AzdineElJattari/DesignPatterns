@@ -1,2 +1,4 @@
-package Factory.Interfaces;public interface Cheese {
+package Factory.Interfaces;
+
+public interface Cheese {
 }

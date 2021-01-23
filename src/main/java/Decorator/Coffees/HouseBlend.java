@@ -1,4 +1,15 @@
-package Decorator;
+package Decorator.Coffees;
 
-public class HouseBlend {
+import Decorator.Decorator;
+import Decorator.Beverage;
+
+public class HouseBlend extends Beverage {
+
+    public HouseBlend() {
+        description  = "House blended coffee";
+    }
+    @Override
+    public double cost() {
+        return 0.99;
+    }
 }

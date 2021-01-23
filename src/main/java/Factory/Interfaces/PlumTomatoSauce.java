@@ -1,2 +1,4 @@
-package Factory.Interfaces;public class PlumTomatoSauce {
+package Factory.Interfaces;
+
+public class PlumTomatoSauce implements Sauce {
 }

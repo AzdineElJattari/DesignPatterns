@@ -1,2 +1,4 @@
-package Factory.Interfaces;public class MozzarellaCheese {
+package Factory.Interfaces;
+
+public class MozzarellaCheese implements Cheese {
 }

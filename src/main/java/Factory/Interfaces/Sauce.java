@@ -1,2 +1,4 @@
-package Factory;public interface Sauce {
+package Factory.Interfaces;
+
+public interface Sauce {
 }

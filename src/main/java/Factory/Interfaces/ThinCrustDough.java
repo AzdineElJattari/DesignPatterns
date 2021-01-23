@@ -1,2 +1,8 @@
-package Factory.Interfaces;public class ThinCrustDough {
+package Factory.Interfaces;
+
+public class ThinCrustDough implements Dough {
+
+    public void dough() {
+
+    }
 }

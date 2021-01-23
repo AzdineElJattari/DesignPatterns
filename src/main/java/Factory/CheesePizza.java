@@ -1,13 +1,17 @@
 package Factory;
 
-public class NYStyleCheesePizza extends Pizza {
+public class CheesePizza extends Pizza {
 
     PizzaIngredientFactory ingredientFactory;
 
-    public NYStyleCheesePizza(PizzaIngredientFactory ingredientFactory) {
+    public CheesePizza(PizzaIngredientFactory ingredientFactory) {
         this.ingredientFactory = ingredientFactory;
     }
 
     void prepare() {
+        System.out.println("Preparing the pizza with name " + name);
+        ingredientFactory.createDough();
+        ingredientFactory.createSauce();
+        ingredientFactory.createCheese();
     }
 }
